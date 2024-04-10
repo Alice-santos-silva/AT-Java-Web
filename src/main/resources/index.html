@@ -7,7 +7,39 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
 
 <nav class="navbar navbar-inverse">
@@ -17,20 +49,54 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/">Home</a></li>
-      <li><a href="/usuario">Clientes</a></li>
-      <li><a href="/funcionario/lista">Funcionários</a></li>
-      <li><a href="#">Cardápio</a></li>
-      <li><a href="#">Sobremesas</a></li>
-      <li><a href="#">Bebidas</a></li>
-      <li><a href="#">Pedidos</a></li>
+      <li><a href="http://localhost:8080/usuario/lista">Clientes</a></li>
+      <li><a href="http://localhost:8080/produto/lista">Cardápio</a></li>
+      <li><a href="http://localhost:8080/sobremesa/lista">Sobremesas</a></li>
+      <li><a href="http://localhost:8080/bebida/lista">Bebidas</a></li>
+      <li><a href="http://localhost:8080/pedidos/lista">Pedidos</a></li>
+      <li><a href="http://localhost:8080/funcionario/lista">Funcionários</a></li>
+      
     </ul>
   </div>
 </nav>
   
-<div class="container">
-  <h3>Gestão de bibliotecas</h3>
-  <p>asf asf asd fasfa.</p>
-</div>
+<header>
+        <h1>Web Cafeteria</h1>
+    </header>
+    <div class="container">
+        <div class="section-container">
+            <h2>Apresentação do Projeto</h2>
+            <p>Bem-vindo à Web Cafeteria, uma aplicação desenvolvida para facilitar a gestão de pedidos e produtos em uma cafeteria. Nosso objetivo é fornecer uma plataforma intuitiva e eficiente para clientes e funcionários, melhorando a experiência de compra e otimizando os processos internos.</p>
+            <h2>Finalidade:</h2>
+            <p>A Cafeteria App foi criada com o propósito de simplificar o processo de pedidos em uma cafeteria, tanto para os clientes quanto para os funcionários. Com uma interface amigável e funcionalidades bem definidas, nosso objetivo é tornar a experiência de compra mais rápida e conveniente.</p>
+            <h2>Objetivos:</h2>
+            <li>
+            	<ul>Permitir que os clientes realizem pedidos de forma rápida e fácil através de uma interface online.</ul>
+            	<ul>Facilitar a gestão de produtos e estoque para os funcionários da cafeteria.</ul>
+            	<ul>Oferecer uma plataforma intuitiva para acompanhamento e controle dos pedidos em tempo real.</ul>
+            	<ul>Melhorar a eficiência operacional da cafeteria, reduzindo erros e aumentando a satisfação do cliente.</ul>
+            </li>
+            <h2>Funcionalidades Principais:</h2>
+            <li>
+            	<ul>Cadastro de usuários (clientes e funcionários).</ul>
+            	<ul>Visualização do cardápio completo de produtos (bebidas, sobremesas, etc.).</ul>
+            	<ul>Adição e remoção de itens ao carrinho de compras.</ul>
+            	<ul>Gestão de estoque e produtos para funcionários.</ul>
+            </li>
+            <p></p>
+        </div>
+        <div class="section-container">
+            <h2>Link do GitHub</h2>
+            <p><a href="https://github.com/Alice-santos-silva/AT-Java-Web">Repositório GitHub</a></p>
+        </div>
+        <div class="section-container">
+            <h2>Informações do Aluno</h2>
+            <p>Nome do aluno: Alice Santos Silva</p>
+            <p>Curso: Desenvolvimento de Serviços Web e Testes com Java</p>
+            <p>Instituição: Instituto Infnet</p>
+            <p>Professor responsável: Elberth Moraes</p>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -38,7 +38,7 @@ public class App {
 		Spark.get("/pedidos/:id", pedidosController.obter);
 		Spark.put("/pedidos/:id/atualizar", pedidosController.atualizar);
 
-		// pedidos
+		// cardapio - produtos
 		Spark.get("/produto/lista", produtoController.obterLista);
 		Spark.post("/produto/incluir", produtoController.incluir);
 		Spark.delete("/produto/:id/excluir", produtoController.excluir);
@@ -58,6 +58,7 @@ public class App {
 		Spark.delete("/bebida/:id/excluir", bebidaController.excluir);
 		Spark.get("/bebida/:id", bebidaController.obter);
 		Spark.put("/bebida/:id/atualizar", bebidaController.atualizar);
+				
 
 	}
 
